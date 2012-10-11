@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<!--Author="Ben Hall"-->
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="code/slideshow.css" />
+</head>
+<body>
+<!--preloads-->
+<div id="preloads">
+<img id="play" src="images/play.jpg" />
+</div>
+<script type="text/javascript" src="code/slideshow.js"></script>
+<h2>js-slideshow</h2>
+<p>A javascript slideshow for images</p>
+<center>
+<a id="imgLink" name="bens-slideshow" href="#" onclick="stopAnimation()">
+<img id="slide-pane" src="images/loading.gif" style="filter: alpha(opacity=100); opacity: 1.00;" />
+</a>
+<div id="controls" style="width:415px;">
+<img id="prev" src="images/prev.jpg" title="Previous" onclick="goBack();">
+<img id="play_pause" src="images/pause.jpg" title="Pause" onclick="playOrPause();">
+<img id="next" src="images/next.jpg" title="Next" onclick="goNext();">
+</div>
+<noscript>
+<p>Please enable javascript to view this slideshow.</p>
+</noscript>
+</center>
+<pre id="descrip">
+Features:
+-Auto-start on page load
+-User controlled; play, pause, skip forward/back
+-Continuous looping, fade transitions, auto-pause on skip
+-Dynamically links to larger image or external site (please click through the images)
+-Remembers position w/ cookies; user doesn't start over upon returning to page
+-Support for multiple sizes/formats
+-Doesn't hinder page load time, most images load in background after page has rendered
+-Smart buttons; images/tooltips change to fit context
+
+Note:
+-All HTML/CSS/JS/Graphics by Benjamin R. Hall
+-Graphics produced for St. John's Cathedral, all rights reserved
+-To launch this in Chrome, you must use 'chrome.exe --enable-file-cookies'
+-Also tested in recent versions of Firefox, Safari, Opera, and I.E.
+</pre>
+</body>
+</html>
+

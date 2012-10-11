@@ -1,0 +1,41 @@
+#preloads,#controls
+{
+	display:none;
+}
+
+#controls
+{
+//
+}
+
+#imgLink, #slide-pane
+{
+	border:none;
+}
+
+#prev,#play_pause,#next
+{
+	position:relative;
+	margin:8px 0 0 0;
+	border:none;
+}
+
+#prev,#play_pause,#next
+{
+	filter: alpha(opacity=80);
+	opacity: .8;
+	-moz-opacity: .8;
+}
+
+#play_pause
+{
+	margin: 0 39px;
+}
+
+#prev:hover,#play_pause:hover,#next:hover
+{
+	cursor:pointer;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	-moz-opacity: 1;
+}
